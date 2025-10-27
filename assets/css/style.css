@@ -148,11 +148,6 @@ main {
     font-size: 1rem;
 }
 
-.image-placeholder.small {
-    height: 150px;
-    font-size: 0.9rem;
-}
-
 /* Content sections */
 .content-section {
     background: var(--white);
@@ -182,23 +177,7 @@ main {
     font-size: 1.1rem;
 }
 
-.image-inline {
-    float: right;
-    margin: 1rem 0 2rem 3rem;
-    max-width: 300px;
-}
 
-.image-inline-left {
-    float: left;
-    margin: 1rem 3rem 2rem 0;
-    max-width: 300px;
-}
-
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-}
 
 .content-grid {
     display: grid;
@@ -247,15 +226,6 @@ main {
 
     .nav-menu {
         flex-direction: column;
-    }
-
-    .nav-menu a {
-        border-right: none;
-        border-bottom: 1px solid rgba(255,255,255,0.2);
-    }
-
-    .nav-menu li:last-child a {
-        border-bottom: none;
     }
 
     .content-grid {
